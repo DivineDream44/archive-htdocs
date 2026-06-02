@@ -1,0 +1,111 @@
+<!DOCTYPE>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--SEO-->
+    <title>Le Crochet</title>
+    <meta name="description" content="abréviations crochet, débutant crochet, abréviations mailles, symboles">
+    <meta name="keywords" content="crochet, abréviation, mailles, symbole, débutant">
+    <meta name="author" content="Louane Caris">
+
+<!--Open Graph-->
+    <meta property="og:title" content="Le Crochet">
+    <meta property="og:description" content="Guide des abréviations crochet">
+    <meta property="og:type" content="website">
+</head>
+
+<body>
+    <header style="background-color: lightcoral;">
+        <h1 style="text-align: center;">Le Crochet</h1>
+        <hr>
+    </header>
+    <main>
+        <table border="0" cellpadding="10" cellspacing="0" width="100%" style="font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4;">
+        <tr>
+            <td width="70%" valign="top">
+                <article>
+                    <h2>Les abréviations en crochet</h2>
+                    <p>Lorsque l'on débute en crochet, il est important de commencer par apprendre les abréviations, ainsi que les symboles qui correspondent aux mailles.<br>
+                        Nous allons voir ici, les abréviations des mailles.</p>
+                    <ul>
+                        <li>Maille en l'air : ml</li>
+                        <li>Maille coulée : mc</li>
+                        <li>Maille serrée : ms</li>
+                        <li>Demi-bride : db ou dbr</li>
+                        <li>Bride : b ou br</li>
+                        <li>Double-bride : Db ou dblebr</li>
+                        <li>Triple-bride : Tb</li>
+                        <li>Augmenter : augm</li>
+                        <li>Diminuer : dim</li>
+                        <li>Envers : env</li>
+                        <li>Maille : m</li>
+                        <li>Point : pt</li>
+                        <li>Rang(s) : rg(s)</li>
+                    </ul>
+                    <p>Cette liste d'abréviation est non exhaustive.<br> 
+                        Il existe encore d'autres abréviations que vous pouvez retrouver <a href="https://www.dmc.com/FR/fr/technique-crochet-abbreviations">ici</a>.</p>
+                        <br>
+                    <p>Voici les symboles correspondants aux mailles vu juste avant.</p>
+                    <table style="background-color: white;" border="2" cellpadding="12" cellspacing="0" width="100%">
+                        <tr>
+                            <td style="text-align: center;">ml</td>
+                            <td style="text-align: center;"><img src="1.png" alt="maille en l'air" width="80" height="80"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">mc</td>
+                            <td style="text-align: center;"><img src="2.png" alt="maille coulée" width="80" height="80"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">ms</td>
+                            <td style="text-align: center;"><img src="3.png" alt="maille serrée" width="80" height="80"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">db</td>
+                            <td style="text-align: center;"><img src="4.png" alt="demi-bride" width="80" height="80"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">b</td>
+                            <td style="text-align: center;"><img src="5.png" alt="bride" width="80" height="80"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Db</td>
+                            <td style="text-align: center;"><img src="6.png" alt="double bride" width="80" height="80"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Tb</td>
+                            <td style="text-align: center;"><img src="7.png" alt="triple bride" width="80" height="80"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">augm</td>
+                            <td style="text-align: center;"><img src="8.png" alt="augmentation" width="80" height="80"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">dim</td>
+                            <td style="text-align: center;"><img src="9.png" alt="diminution" width="80" height="80"></td>
+                        </tr>
+                    </table>
+                    <p>Pour plus de symboles, cliquez <a href="https://imaginarium-de-pomme.com/les-symboles-du-crochet/">ici</a>.</p>
+                    <p>Voici quelques liens vers des sites qui montrent comment lire un diagramme au crochet.</p>
+                    <ul>
+                        <li><a href="https://www.iki-lineart.com/post/diagramme-au-crochet-tu-vas-enfin-savoir-le-d%C3%A9coder">Diagramme au crochet : tu vas enfin savoir le décoder !</a></li>
+                        <li><a href="https://www.mondialtissus.fr/tutos-et-inspiration/mon-guide-couture/tout-savoir-sur-le-crochet/comment-lire-un-diagramme-au-crochet.html">Comment lire un diagramme au crochet.</a></li>
+                    </ul>
+                </article>
+            </td>
+            <td width="30%" valign="top" style="padding-left: 20px; border-left: 1px solid #ccc;">
+                <aside>
+                    <img src="crochet patterns rose.jpg" alt="Crochet rose" width="150" height="150"><br><br>
+                    <img src="diagramme crochet.jpg" alt="Diagramme granny square" width="150" height="150">
+                </aside>
+            </td>
+        </tr>
+        </table>
+    </main>
+    <footer style="background-color: lightcoral;">
+        <hr>
+        <p style="text-align: center;"><small>&copy; 2026 Le Crochet - Louane Caris</small></p><br>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- 
+Nom......... : Le Crochet
+Rôle ........ : Page html et css
+Auteur ...... : Louane Caris  
+Version ..... : V0.1 du 16/03/2026
+Licence ..... : réalisé dans le cadre du cours d'informatique fondamentale
+Compilation : Visual Studio Code (HTML5)
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Le Crochet</title>
+    <meta name="description" content="abréviations crochet, débutant crochet, abréviations mailles, symboles">
+    <meta name="keywords" content="crochet, abréviation, mailles, symbole, débutant">
+    <meta name="author" content="Louane Caris">
+
+    <meta property="og:title" content="Le Crochet">
+    <meta property="og:description" content="Guide des abréviations crochet">
+    <meta property="og:type" content="website">
+
+    <style>
+        * {
+  			box-sizing: border-box;
+  			margin: 0;
+  			padding: 0;
+		}
+
+		body {
+  			font-family: 'Courier New', Courier, monospace;
+  			background-color: white;
+  			line-height: 1.6;
+		}
+
+		header, footer {
+  			background-color: lightsalmon;
+  			color: black;
+  			text-align: center;
+  			padding: 60px 20px;
+		}
+
+		h1 {
+  			text-align: center;
+  			margin-bottom: 20px;
+		}
+
+		.navbar {
+  			background-color: lightcoral;
+  			overflow: hidden;
+		}
+
+		.navbar a {
+  			float: left;
+  			width: 50%;
+  			color: black;
+  			padding: 14px 20px;
+  			text-decoration: none;
+  			text-align: center;
+		}
+
+		.navbar a:hover {
+  			background-color: #ddd;
+		}
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .main {
+            float: left;
+            width: 70%;
+            background-color: white;
+            padding: 20px;
+            border-right: 1px solid black;
+        }
+
+        aside {
+            float: right;
+            width: 30%;
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+		table {
+  			border-collapse: collapse;
+  			width: 30%;       
+  			margin: 20px auto;
+		}
+
+		th, td {
+  			border: 2px solid black; 
+  			padding: 10px;
+  			text-align: center;
+		}
+
+		td:first-child {
+  			font-weight: bold;
+  			background-color: whitesmoke;
+		}
+
+        table img {
+            max-width: 50%;
+            height: auto;
+            display: block;
+        }
+
+		aside img {
+  			max-width: 90%;
+  			height: auto;
+  			display: block;
+  			margin: 10px auto;
+  			border-radius: 8px;
+		}
+
+        ul {
+            padding-left: 20px;
+        }
+		
+        .rouge {
+            color: darkred;
+        }
+        
+		@media screen and (max-width: 700px) {
+  			.navbar a {
+    			float: none;
+    			width: 100%;
+  			}
+  			.main, aside {
+    			float: none;
+    			width: 100%;
+  			}
+			.main {
+                border-right: none;
+            }
+		}
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1><span class="rouge">Le Crochet</span></h1>
+    </header>
+
+    <div class="navbar">
+        <a href="index.html">Le Crochet (HTML)</a>
+        <a href="CSSindex.html">Le Crochet (HTML et CSS)</a>
+        <a href="https://l1ied.liveblog365.com/wordpress/le-crochet-2/">Page wordpress</a>
+        <a href="JSindex.html">Le Crochet (HTML, CSS et JS)</a>
+    </div>
+
+    <div class="container">
+    	<div class="main">
+       		<article>
+            	<h2>Les abréviations en crochet</h2>
+            	<p>Lorsque l'on débute en crochet, il est important de commencer par apprendre les <span class="rouge">abréviations</span>, ainsi que les symboles qui correspondent aux mailles.<br>
+            	Nous allons voir ici, les abréviations des mailles.</p>
+
+            	<h3>Liste des abréviations principales</h3>
+            	<ul>
+                	<li>Maille en l'air : <strong>ml</strong></li>
+                	<li>Maille coulée : <strong>mc</strong></li>
+                	<li>Maille serrée : <strong>ms</strong></li>
+                	<li>Demi-bride : <strong>db</strong> ou <strong>dbr</strong></li>
+                	<li>Bride : <strong>b</strong> ou <strong>br</strong></li>
+                	<li>Double-bride : <strong>Db</strong> ou <strong>dblebr</strong></li>
+                	<li>Triple-bride : <strong>Tb</strong></li>
+                	<li>Augmenter : <strong>augm</strong></li>
+                	<li>Diminuer : <strong>dim</strong></li>
+            	</ul>
+
+            	<p>Cette liste d’abréviations est non exhaustive.<br> 
+            	Il existe encore d’autres abréviations que vous pouvez retrouver 
+            	<a href="https://www.dmc.com/FR/fr/technique-crochet-abbreviations" target="_blank">ici</a>.</p>
+
+            	<h3>Symboles correspondants</h3>
+            	<table>
+                	<thead>
+                    	<tr>
+                        	<th>Abréviation</th>
+                        	<th>Symbole</th>
+                    	</tr>
+                	</thead>
+                	<tbody>
+                    	<tr><td>ml</td><td><img src="1.png" alt="maille en l'air"></td></tr>
+                    	<tr><td>mc</td><td><img src="2.png" alt="maille coulée"></td></tr>
+                    	<tr><td>ms</td><td><img src="3.png" alt="maille serrée"></td></tr>
+                    	<tr><td>db</td><td><img src="4.png" alt="demi-bride"></td></tr>
+                    	<tr><td>b</td><td><img src="5.png" alt="bride"></td></tr>
+                    	<tr><td>Db</td><td><img src="6.png" alt="double bride"></td></tr>
+                    	<tr><td>Tb</td><td><img src="7.png" alt="triple bride"></td></tr>
+                    	<tr><td>augm</td><td><img src="8.png" alt="augmentation"></td></tr>
+                    	<tr><td>dim</td><td><img src="9.png" alt="diminution"></td></tr>
+                	</tbody>
+            	</table>
+
+                <p>Pour plus de symboles, cliquez <a href="https://imaginarium-de-pomme.com/les-symboles-du-crochet/">ici</a>.</p>
+
+                <p>Voici quelques liens vers des sites qui montrent comment lire un diagramme au crochet.</p>
+                <ul>
+                    <li><a href="https://www.iki-lineart.com/post/diagramme-au-crochet-tu-vas-enfin-savoir-le-décoder">Diagramme au crochet : tu vas enfin savoir le décoder !</a></li>
+                    <li><a href="https://www.mondialtissus.fr/tutos-et-inspiration/mon-guide-couture/tout-savoir-sur-le-crochet/comment-lire-un-diagramme-au- crochet.html">Comment lire un diagramme au crochet.</a></li>
+                </ul>
+            </article>
+        </div>
+
+        <aside>
+            <img src="crochet-rose.jpg" alt="Crochet rose"><br><br>
+            <img src="diagramme-crochet.jpg" alt="Diagramme granny square">
+        </aside>
+
+        <div class="clear"></div>
+    </div>
+
+    <footer>
+        <p><small>&copy; 2026 Le Crochet - Louane Caris</small></p>
+    </footer>
+</body>
+</html>
